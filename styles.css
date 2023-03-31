@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    background-color: rgb(186, 236, 236);
+
+}
+.top-container{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/374/392/867/anarchy-computer-cyber-dark-wallpaper-preview.jpg");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.top-container h1{
+    color: white;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+}
+.text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    background-color: #ed6e14;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+    transition: 0.4s;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: #4f10e3;
+    font-family:cursive ;
+}
+.navbar ul li a:hover{
+    color:rgb(11, 226, 43);
+}
+.navbar.active{
+background-color: rgb(148, 50, 124);
+}
+.navbar .active ul li a{
+    color: aqua;
+}
+.footer p{
+    background-color: #9870f5;
+    padding-top: 2px;
+    margin-bottom: 0;
+    height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: azure;
+}
